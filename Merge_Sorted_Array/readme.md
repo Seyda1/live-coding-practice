@@ -34,3 +34,26 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 - 0 <= m, n <= 200
 - 1 <= m + n <= 200
 - -10<sup>9</sup> <= nums1[i], nums2[j] <= 109
+
+## Problem Understanding:
+
+Since the arrays are ordered, we start from the end. This avoids shifting elements unnecessarily and ensures that we place the largest values first in `nums1`. The remaining steps are simply: initialize pointers, compare and merge from the end, and copy any remaining elements from `nums2` (if any).
+
+## Time Complexity
+
+Since all operations together take **O(m + n)** time, the overall time complexity remains: **O(m+n)** 
+This is optimal because we must process all elements at least once to merge them.
+
+## Space Complecity:
+
+The function modifies `nums1` in-place, meaning no extra data structures (like lists or arrays) are used.
+In-Place Modification → **O(1)**
+
+- We use only three integer variables **(pointer1, pointer2, p)** for tracking positions.
+- These take constant space, **O(1)**, regardless of the input size.
+- No Extra Arrays → O(1)
+
+Unlike a naive approach that creates a new merged array **(O(m + n) space)**, this solution avoids extra storage.
+Since `nums1` already has extra space allocated, we only rearrange values inside it.
+**Final Space Complexity: O(1)**
+This is the most memory-efficient way to merge two sorted arrays in-place.
