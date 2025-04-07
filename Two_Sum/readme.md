@@ -33,5 +33,12 @@ While I’m not certain it’s the most optimal approach, it helps me maintain s
 For this problem, I subtract each element in the array from the target and then check if the resulting value exists in the array. 
 This method avoids the need to search the array twice for two elements that sum to the target, providing a more efficient solution.
 
-## Time Complexity
+## Time and Space Complexity
+
+### Time Complexity
+- **O(n)**: The algorithm iterates through the `nums` list once, performing a constant-time dictionary lookup and insert operation for each element. Therefore, the time complexity is **O(n)**, where **n** is the number of elements in the `nums` list.
+
+### Space Complexity
+- **O(n)**: The space complexity is determined by the dictionary `seen`, which stores the indices of the elements encountered during the iteration. In the worst case, the dictionary will store every element, so the space complexity is **O(n)**, where **n** is the number of elements in the `nums` list.
+
 
