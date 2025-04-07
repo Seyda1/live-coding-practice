@@ -42,7 +42,7 @@ Approach:
 
 )
 
-🌟 The overall time complexity would indeed be O(m * n). 
+🌟 The overall time complexity would indeed be **O(m * n)**. 
 The O(n) term for finding the shortest string is negligible compared to O(m * n), because the latter grows much faster as n (the number of strings) and m (the length of the shortest string) increase.
 When you combine multiple time complexities, we look at the dominant term.
 
@@ -55,4 +55,6 @@ When you combine multiple time complexities, we look at the dominant term.
 **Total Space Complexity:**
 )
 
-🌟 The overall space complexity is O(m), where m is the length of the shortest string in the list.
+🌟 The overall space complexity is **O(m)**, where m is the length of the shortest string in the list.
+
+
