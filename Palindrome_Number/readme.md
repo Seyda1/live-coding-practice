@@ -26,7 +26,7 @@ Given an integer `x`, return `true` if `x` is a **palindrome**, and `false` othe
 ## Problem Understanding:
  To check if a given input is a palindrome, we simply reverse the input and compare it to the original. If the reversed input is equal to the original, then the input is a palindrome.
 
- I encountered this kind of problem during a live coding session. After solving it using a straightforward approach, I was asked to rewrite the solution using fewer lines and with better time and space complexity. 
+ ⭐️⭐️ I encountered this kind of problem during a live coding session. After solving it using a straightforward approach, I was asked to rewrite the solution using fewer lines and with better time and space complexity. 
  This made it clear that interviewers not only expect you to solve the problem but also to proactively suggest optimizations when possible — even if the initial solution is correct.
 
  ### Time Complexity:
