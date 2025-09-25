@@ -2,7 +2,7 @@
 
 ## Problem Description:
 
-You are given a linear equation as a string. Write a function that returns the integer value of x (the missing digit) that satisfies the equation without using the 'eval()' function.
+You are given a linear equation as a string. Write a function that returns the integer value of `x (the missing digit)` that satisfies the equation without using the `eval()` function.
 
 ## **cases:**
 
