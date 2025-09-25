@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-Given a list of numbers and an integer ``k, find the maximum sum of k consecutive elements in the list.
+Given a list of numbers and an integer `k`, find the maximum sum of k consecutive elements in the list.
 
 ### *Input:*
 
